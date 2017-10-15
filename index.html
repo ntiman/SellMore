@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title><h1>Sell More</h1></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="_css/Arabah.css" />
+    <link rel="stylesheet" href="_css/jquery.mobile.css" />
+    <script src="_js/jquery.js"></script>
+    <script src="_js/jquery.mobile.js"></script>
+    <script src="_js/myscript.js"></script>
+	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5a-mbQmqmDTlo_bcO7Wz9QZdOUcX-AlE"
+    async defer></script>
+	<style>
+	#map-canvas {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+	</style>
+</head>
+<body>
+
+<div data-role="page" id="page" data-theme="c">
+    <div data-role="header">
+        <h1>SellMore</h1>
+    </div>
+
+    <div data-role="main" class="ui-content">
+        
+    <ul data-role="listview" data-count-theme="b" data-inset="true">
+    <li><a href="#custPage">Customer List <span class="ui-li-count" id="custListNum" ></span></a></li>
+    <li><a href="#invPage">Invoices <span class="ui-li-count"id="invListNum"></span></a></li>
+    <li><a href="#prodPage">Products <span class="ui-li-count"id="proListNum"></span></a></li>
+	</ul>
+	</div>
+    <div data-role="footer">
+        <h4 id="sNames">Nikolai Timan</h4>
+    </div>
+</div>
+
+<div data-role="page" id="custPage" data-theme="c">
+    <div data-role="header">
+        <a href="#page" class="ui-btn ui-icon-home ui-btn-icon-left" data-transition="flow">Home</a>
+		<h1>SellMore</h1>
+    </div>
+
+    <div data-role="main" id="mainPCust" class="ui-content">
+    
+   
+	</div>
+	
+</div>
+
+<div data-role="page" id="geoMapPage" data-theme="c">
+    <div data-role="header">
+        <a href="#page" class="ui-btn ui-icon-home ui-btn-icon-left" data-transition="flip">Home</a>
+		<h1>SellMore</h1>
+    </div>
+
+    <div data-role="main" id="map-canvas" class="ui-content">
+    
+   
+	</div>
+    <div data-role="footer">
+        <h4 id="sNames">Nikolai Timani</h4>
+    </div>
+</div>
+	
+    
+<div data-role="page" id="invPage" data-theme="c">
+    <div data-role="header">
+        <a href="#page" class="ui-btn ui-icon-home ui-btn-icon-left" data-transition="flip">Home</a>
+		<h1>SellMore</h1>
+    </div>
+
+    <div data-role="main" id="invCont" class="ui-content">
+    
+   
+	</div>
+    <div data-role="footer">
+        <h4 id="sNames">Nikolai Timan</h4>
+    </div>
+</div>
+<div data-role="page" id="prodPage" data-theme="c">
+    <div data-role="header">
+        <a href="#page" class="ui-btn ui-icon-home ui-btn-icon-left"data-transition="turn" >Home</a>
+		<h1>SellMore</h1>
+    </div>
+
+    <div data-role="main" id="prodCont" class="ui-content">
+    
+   
+	</div>
+    <div data-role="footer">
+        <h4 id="sNames">Nikolai Timan</h4>
+    </div>
+</div>
+
+
+
+<div data-role="page" id="custMail" data-dialog="true" data-transition="pop" data-theme="c">
+
+    <div data-role="main" id="mainMailP" class="ui-content"> 
+		Mail to: <input type="email" id="myEmail" value=""><br>
+		Subject: <input type="text" id="subject" size="44"><br>	
+		Message:<br><textarea rows="10" cols="50" id="message"></textarea><br><br>
+		<button class="ui-btn ui-icon-home ui-mini ui-btn-inline" id="email" onclick="sendEmail()">Send Email</button>
+		<button class="ui-btn ui-icon-delete ui-btn-icon-left" id= "closeX" >Exit</button>
+
+
+		<script>
+			function sendEmail() {
+				if($('#myEmail').val().indexOf('@') == -1 ) {
+				alert("Not a valid e-mail!");
+				return;
+				}
+			}
+			
+			<!--$(document).on("pagecreate",function () { initialize();}); -->
+
+	
+
+</script>
+
+</div>
+   
+	</div>
+</body>
+</html>

@@ -1,0 +1,414 @@
+	{
+     "customer": [
+            {
+			  "compId": 1,
+			  "compName": "Sheridan Collage",
+			  "compAddr": "778 steels Ave, Brampton ON",
+			  "compContact": "18006523741",
+			  "compEmail": "support@sheridanc.com",
+			  "invNum": [          
+                	 "C001", "C0011", "C0101"]
+			  
+			  },
+              {
+			  "compId": 2,
+			  "compName": "MuchOnline",
+			  "compAddr": "123 King St, Toronto ON",
+			  "compContact": "6476227589",
+			  "compEmail": "support@muchonline.com",
+			  "invNum": [          
+                	"C002", "C0012", "C0202"]
+			  
+			  },
+			  {
+			  "compId": 3,
+			  "compName": "Xyz co",
+			  "compAddr": "2200 Islington Ave, Toronto ON",
+			  "compContact": "18001004578",
+			  "compEmail": "support@xyz.com",
+			  "invNum": [          
+                	"C003", "C0013", "C0303"]
+			  
+			  }
+			  ,
+			  {
+			  "compId": 4,
+			  "compName": "CanWe org",
+			  "compAddr": "220 King st W Toronto ON",
+			  "compContact": "1801254581",
+			  "compEmail": "support@canwe.org",
+			  "invNum": [          
+                	"C004", "C0014", "C0404"]
+			  
+			  },
+			  {
+			  "compId": 5,
+			  "compName": "SomSmile inc",
+			  "compAddr": "33 King st W Toronto ON",
+			  "compContact": "1888223568",
+			  "compEmail": "support@somsmile.org",
+			  "invNum": [          
+                	"C005", "C0015", "C0505"]
+			  
+			  },
+			  {
+			  "compId": 6,
+			  "compName": "Telcom tech",
+			  "compAddr": "22 Kipling Ave Toronto ON",
+			  "compContact": "1888889457",
+			  "compEmail": "support@telcome.org",
+			  "invNum": [          
+                	"C006", "C0016", "C0606"]
+			  
+			  },
+			  {
+			  "compId": 7,
+			  "compName": "Media Tech",
+			  "compAddr": "5001 Kipling Ave Toronto ON",
+			  "compContact": "1888894755",
+			  "compEmail": "support@mediacom.org",
+			  "invNum": [          
+                	"C007", "C0017", "C0707"]
+			  }
+			  ,
+			  {
+			  "compId": 8,
+			  "compName": "Fresh Value com",
+			  "compAddr": "66 Finch Ave W Toronto ON",
+			  "compContact": "186689475",
+			  "compEmail": "support@freshv.org",
+			  "invNum": [          
+                	"C008", "C0018", "C0808"]
+			  
+			  },
+			  {
+			  "compId": 9,
+			  "compName": "More4less",
+			  "compAddr": "99 Finch Ave W Toronto ON",
+			  "compContact": "186688895",
+			  "compEmail": "support@more4less.com",
+			  "invNum": [          
+                	"C009", "C0019", "C0909"]
+			  
+			  } ,
+			  {
+			  "compId": 10,
+			  "compName": "Woow int",
+			  "compAddr": "85 Keel st Toronto ON",
+			  "compContact": "18677993655",
+			  "compEmail": "support@woow.org",
+			  "invNum": [          
+                	"C0010", "C0110", "C1101"]
+			  
+			  }
+            ],
+			
+	"Invoice":[
+			{
+			"invNum": "C002",
+			"invDate": "2016-01-18",
+			"invAmt": "$29.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 1, "qty": 12},{"prodId": 2, "qty": 12}
+			]
+			
+			},
+			{
+			"invNum": "C003",
+			"invDate": "2016-01-20",
+			"invAmt": "$99.99",
+			"compId": 2,
+			"product":[
+			{"prodId": 2, "qty": 12},{"prodId": 1, "qty": 12}
+			]
+			
+			},
+			{
+			"invNum": "C004",
+			"invDate": "2016-02-10",
+			"invAmt": "$59.99",
+			"compId": 3,
+			"product":[
+			{"prodId": 3, "qty": 12},{"prodId": 4, "qty": 12}
+			]
+			
+			},
+			{
+			"invNum": "C005",
+			"invDate": "2016-03-10",
+			"invAmt": "$59.99",
+			"compId": 4,
+			"product":[
+			{"prodId": 4, "qty": 12},{"prodId": 5, "qty": 12}
+			]
+			
+			},
+			{
+			"invNum": "C006",
+			"invDate": "2016-03-14",
+			"invAmt": "$59.99",
+			"compId": 6,
+			"product":[
+			{"prodId": 6, "qty": 12},{"prodId": 5, "qty": 12}
+			]
+			
+			},
+			{
+			"invNum": "C007",
+			"invDate": "2016-03-17",
+			"invAmt": "$59.99",
+			"compId": 7,
+			"product":[
+			{"prodId": 7, "qty": 12},{"prodId": 8, "qty": 12}
+			]
+			
+			},
+			{
+			"invNum": "C008",
+			"invDate": "2016-06-19",
+			"invAmt": "$59.99",
+			"compId": 8,
+			"product":[
+			{"prodId": 8, "qty": 12},{"prodId": 9, "qty": 12}
+			]
+			
+			},
+			{
+			"invNum": "C009",
+			"invDate": "2016-03-10",
+			"invAmt": "$59.99",
+			"compId": 9,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			
+			},
+			{
+			"invNum": "C0010",
+			"invDate": "2016-03-10",
+			"invAmt": "$59.99",
+			"compId": 10,
+			"product":[
+			{"prodId": 10, "qty": 12},{"prodId": 6, "qty": 12}
+			]
+			
+			},{
+			"invNum": "C0011",
+			"invDate": "2016-03-10",
+			"invAmt": "$29.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0101",
+			"invDate": "2016-03-11",
+			"invAmt": "$49.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0012",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0202",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0013",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0303",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0014",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0404",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0015",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0505",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0016",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0606",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0017",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0707",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0018",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0808",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0019",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0909",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C0110",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			},{
+			"invNum": "C1101",
+			"invDate": "2016-03-10",
+			"invAmt": "$79.99",
+			"compId": 1,
+			"product":[
+			{"prodId": 9, "qty": 12},{"prodId": 10, "qty": 12}
+			]
+			}
+			
+			],
+			
+			
+	"Product":[{
+			"prodId":1,
+			"prodDesc":"This is desc of product 1 ***",
+			"prodAmt":"12"
+			},
+			{
+			"prodId":2,
+			"prodDesc":"This is desc of product 2 ***",
+			"prodAmt":"12"
+			},
+			{
+			"prodId":3,
+			"prodDesc":"This is desc of product 3 ***",
+			"prodAmt":"12"
+			},
+			{
+			"prodId":4,
+			"prodDesc":"This is dec of product 4 ***",
+			"prodAmt":"12"
+			}
+			,
+			{
+			"prodId":5,
+			"prodDesc":"This is dec of product 5 ***",
+			"prodAmt":"12"
+			},
+			{
+			"prodId":6,
+			"prodDesc":"This is dec of product 6 ***",
+			"prodAmt":"12"
+			},
+			{
+			"prodId":7,
+			"prodDesc":"This is dec of product 7 ***",
+			"prodAmt":"12"
+			},
+			{
+			"prodId":8,
+			"prodDesc":"This is dec of product 8 ***",
+			"prodAmt":"12"
+			},
+			{
+			"prodId":9,
+			"prodDesc":"This is dec of product 9 ***",
+			"prodAmt":"12"
+			},
+			{
+			"prodId":10,
+			"prodDesc":"This is dec of product 10 ***",
+			"prodAmt":"12"
+			}
+
+			]
+        }
