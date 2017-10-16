@@ -2,9 +2,9 @@
 
 ## Introduction
 
-This is my personal project for practice. I have tried to emulate shopping website and get some practice on JSON, JavaScript and JQuery Mobile Framework.
+This is my personal project for practice on JSON data structuring and transmission, JavaScript, JQuery Mobile Framework. I tried to emulate a simple shopping website.
 
-Demonstration: 
+Demonstration: http://timan.dev.fast.sheridanc.on.ca/SellMore/
 
 ## What did I gain from this project
 
